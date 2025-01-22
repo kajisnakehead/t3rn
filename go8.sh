@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Set environment variables
-export PROMETHEUS_PORT=9092
+export PROMETHEUS_PORT=9091
 export NODE_ENV=testnet
 export LOG_LEVEL=debug
 export LOG_PRETTY=false
-export PRIVATE_KEY_LOCAL=bbad0cc85bab9f728ae7ed4086402246ba4fb1cbd2901e862c7f9d9ee14d8a56
+export PRIVATE_KEY_LOCAL=8cd7ebe61331e7732768552031ef8eaa260eec436a7aacadb6fe0e33ed1a6930
 export ENABLED_NETWORKS='arbitrum-sepolia,base-sepolia,blast-sepolia,optimism-sepolia,l1rn'
 export EXECUTOR_MAX_L3_GAS_PRICE=1000
-export EXECUTOR_PROCESS_ORDERS=false
+export EXECUTOR_PROCESS_ORDERS=true
 export EXECUTOR_PROCESS_CLAIMS=true
 #export RPC_ENDPOINTS_L1RN='https://brn.calderarpc.com/'
 export RPC_ENDPOINTS_L1RN='https://brn.rpc.caldera.xyz/'
